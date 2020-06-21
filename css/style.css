@@ -1,0 +1,911 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
+/*
+Farben: #530100, #8E0000, #B35757
+
+
+*/
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body, html /* Damit die hauptseite richtig angepasst ist. */
+{
+  font-family: 'Roboto';
+  min-height: 100vh;
+  background: #F2F2F2;
+}
+a:visited, a:link, a:hover, a:active
+{
+ color: #530100;
+ text-decoration: none;
+}
+.menu1 /* Für die Menuleiste */
+{
+  float: left;
+  width: 45px; 
+  height: 45px;
+  margin: -10px 0px -10px 10px;
+}
+.menu2 /* Für die Menuleiste */
+{
+  font-family: 'Lato';
+  text-align: center;
+  color: #8E0000;
+  font-size: 20px;
+  margin: 15px 15px 15px 0px; 
+}
+hr /* Linie für das Menu*/
+{
+  border-color: #9b1b3b;
+}
+
+
+
+/* Boxen für die Startseite */
+.big_box
+{
+  background-color: #B35757;
+  border: 2px #9b1b3b solid;
+  width: 90%;
+  height: 200px;
+  margin: 15px auto;
+}
+.big_box p
+{
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+
+
+.box_l
+{
+  background-color: #B35757;
+  border: 2px #9b1b3b solid;
+  float: left; 
+  width: 40%;
+  height: 250px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.box_l p
+{
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+
+.box_r
+{
+  background-color: #B35757;
+  border: 2px #9b1b3b solid;
+  float: right; 
+  width: 40%;
+  height: 250px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.box_r p
+{
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+
+
+
+/* Für die Kategorie (Raid Erstellen) */
+.box_raid
+{
+  background-color: #B35757;
+  border: 2px #9b1b3b solid;
+  display: center;
+  widows: 90%;
+  height: 50px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: auto;
+}
+.box_raid p
+{
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+
+
+
+
+/* Boxen für die Raids (Links) */
+.box_l_raid_1
+{
+  background-color: #B35757;
+  border: 2px #9b1b3b solid;
+  float: left; 
+  width: 40%;
+  height: 250px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box_l_raid_2
+{
+  background-color: rgba(155, 27, 59, 0.3);
+  border: 2px;
+  border-style: none none solid none;
+  border-color: #9b1b3b
+}
+.box_l_raid_2 p
+{
+  text-align: center;
+  color: #ffffff;
+  padding: 5px 0px 5px 0px;
+}
+
+.box_l_raid_3 
+{
+  
+  background-color: rgba(155, 27, 59, 0.3);
+  border: 2px;
+  border-style: solid none none solid;
+  border-color: #9b1b3b;
+  padding: 5px 5px 5px 05px;
+  margin-top: 189px;
+  float: right;
+}
+.box_l_raid_3_large 
+{
+  
+  background-color: rgba(155, 27, 59, 0.3);
+  border: 2px;
+  border-style: solid none none solid;
+  border-color: #9b1b3b;
+  padding: 5px 5px 5px 05px;
+  margin-top: 170px;
+  float: right;
+}
+
+/* Boxen für die Raids (Rechts) */
+.box_r_raid_1
+{
+  background-color: #B35757;
+  border: 2px #9b1b3b solid;
+  float: right; 
+  width: 40%;
+  height: 250px;
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box_r_raid_2
+{
+  background-color: rgba(155, 27, 59, 0.3);
+  border: 2px;
+  border-style: none none solid none;
+  border-color: #9b1b3b
+}
+.box_r_raid_2 p
+{
+  text-align: center;
+  color: #ffffff;
+  padding: 5px 0px 5px 0px;
+}
+
+.box_r_raid_3 /* Vorübergehend */
+{
+  
+  background-color: rgba(155, 27, 59, 0.3);
+  border: 2px;
+  border-style: solid none none solid;
+  border-color: #9b1b3b;
+  padding: 5px 5px 5px 05px;
+  margin-top: 189px;
+  float: right;
+}
+.box_r_raid_3_large /* Vorübergehend */
+{
+  
+  background-color: rgba(155, 27, 59, 0.3);
+  border: 2px;
+  border-style: solid none none solid;
+  border-color: #9b1b3b;
+  padding: 5px 5px 5px 05px;
+  margin-top: 170px;
+  float: right;
+}
+
+
+
+/*
+
+Ruhmenshalle
+
+*/
+
+.info_txt
+{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.box_ruhm_info
+{
+  background-color: #e74c3c;
+  border: 2px #34495e solid;
+  width: 60%;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.box_ruhm_info p
+{
+  text-align: center;
+  padding: 20px 5px 5px 5px;
+}
+
+.box_ruhm
+{
+  background-color: hsl(210, 42%, 43%);
+  border: 2px #34495e solid;
+  width: 57%;
+  height: 95px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.box_ruhm p
+{
+  text-align: center;
+  padding: 35px 5px 5px 5px;
+}
+
+.box_ruhm_badges_support
+{
+  padding: 0px 0px 0px 2px;
+  margin-top: 10px;
+  float: left;
+}
+
+.box_ruhm_badges_free
+{
+  padding: 0px 2px 7px 5px;
+  margin-top: 10px;
+  float: right;
+}
+
+
+/*
+
+Ruhmenshalle Info
+
+*/
+
+.Inhalt
+{
+  text-align: left;
+  text-decoration: underline;
+  margin-top: 25px;
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.Ruhm_img
+{
+  padding-left: 35px;
+  margin-top: 5px;
+}
+
+.Ruhm_img_m
+{
+  padding-left: 5px;
+  margin-top: 5px;
+}
+
+
+.ruhm_badge_info
+{
+  background-color: hsl(212, 34%, 45%);
+  border: 2px #34495e solid;
+  width: 60%;
+  height: auto;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  margin: 10px 0 0 15px;
+}
+.ruhm_badge_info p
+{
+  padding-left: 15%;
+}
+
+/*
+
+Bilder für die Arenen Anfang
+
+*/
+
+
+.arena_img
+{
+  background-image: url("../pic/misc/arena.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.raid_img
+{
+  background-image: url("../pic/misc/raid.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.ruhmeshalle_img
+{
+  background-image: url("../pic/misc/ruhmeshalle.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.coffee_img
+{
+  background-image: url("../pic/misc/coffee_img.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+
+
+/* MÜMMELMANNSBERG */
+.Ausblick 
+{
+  background-image: url("../pic/arena/Ausblick.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Spielplatz_bach
+{
+  background-image: url("../pic/arena/Spielplatz_bach.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Skulptur
+{
+  background-image: url("../pic/arena/Skulptur.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Stonespring
+{
+  background-image: url("../pic/arena/Stonespring.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Skulpturenhof
+{
+  background-image: url("../pic/arena/Skulpturenhof.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Bridge
+{
+  background-image: url("../pic/arena/Bridge.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Drehscheibe
+{
+  background-image: url("../pic/arena/Drehscheibe.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Kunstwerk_aus_stahl
+{
+  background-image: url("../pic/arena/kunstwerk_aus_stahl.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Sternzeichen
+{
+  background-image: url("../pic/arena/sternzeichen.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Rutsche
+{
+  background-image: url("../pic/arena/Rutsche.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Erdkugel
+{
+  background-image: url("../pic/arena/Erdkugel.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Metallkunst
+{
+  background-image: url("../pic/arena/Metallkunst.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+.cubeclock
+{
+  background-image: url("../pic/arena/cubeclock.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+.siegel_1978
+{
+  background-image: url("../pic/arena/siegel_1978.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+.MSV
+{
+  background-image: url("../pic/arena/MSV.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+/* MÜMMELMANNSBERG */
+
+
+
+/* STEINFURTHER ALLEE */
+.Amazonas
+{
+  background-image: url("../pic/arena/Amazonas.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Kamerun
+{
+  background-image: url("../pic/arena/Kamerun.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.KoT
+{
+  background-image: url("../pic/arena/KoT.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Cow
+{
+  background-image: url("../pic/arena/Cow.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Steinfurther_allee
+{
+  background-image: url("../pic/arena/Steinfurther_allee.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Steinkreis
+{
+  background-image: url("../pic/arena/Steinkreis.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Fische
+{
+  background-image: url("../pic/arena/Fische.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Alte_lore
+{
+  background-image: url("../pic/arena/Alte_lore.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Bambi
+{
+  background-image: url("../pic/arena/Bambi.jpeg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+
+/* STEINFURTHER ALLEE */
+
+
+
+/* MERKENSTRAßE */
+.Kachelkreuz
+{
+  background-image: url("../pic/arena/Kachelkreuz.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Jubilate
+{
+  background-image: url("../pic/arena/Jubilate.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.BUND
+{
+  background-image: url("../pic/arena/BUND.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Fassade
+{
+  background-image: url("../pic/arena/Fassade.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Reitfisch
+{
+  background-image: url("../pic/arena/Reitfisch.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Luisenhof
+{
+  background-image: url("../pic/arena/Luisenhof.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Bolzplatz
+{
+  background-image: url("../pic/arena/Bolzplatz.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.fallen
+{
+  background-image: url("../pic/arena/fallen.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.steinbecker_kirche
+{
+  background-image: url("../pic/arena/Steinbeker_Kirche.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+/* MERKENSTRAßE */
+
+
+
+/* BILLSTEDT */
+.aufgebaut_1943
+{
+  background-image: url("../pic/arena/aufgebaut_1943.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.kinderkunst_stromkasten
+{
+  background-image: url("../pic/arena/kinderkunst_stromkasten.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Pilz
+{
+  background-image: url("../pic/arena/Pilz.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.kirche_schiffbek
+{
+  background-image: url("../pic/arena/kirche_schiffbek.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+
+
+
+/* BILLSTEDT */
+
+
+
+
+/*
+
+Bilder für die Arenen Ende
+
+*/
+
+
+
+
+
+
+
+
+
+/*
+
+create.php Design
+
+*/
+
+.create
+{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #B35757;
+  text-align: center;
+}
+
+.create h1 
+{
+  color: white;
+}
+
+.create h2
+{
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.create input[type = "text"],.create select,.create input[type = "time"]
+{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #9b1b3b;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: #530100;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.create input[type = "text"]:focus,.create select:focus,.create input[type = "time"]:focus
+{
+  width:240px;
+  border-color: #8E0000;
+}
+
+
+.create input[type = "submit"]
+{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: #2ecc71;
+  border-radius: 24px;
+  transition: 0.025s;
+  cursor: pointer;
+
+}
+
+.create input[type = "submit"]:hover
+{
+  background: #2ecc71;
+}
+
+
+/*
+
+upload
+
+*/
+
+.warnung {
+  background-color: #e74c3c;
+  border: 2px #34495e solid;
+  width: 60%;
+  height: 115px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.warnung p {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.richtig {
+  background-color: #2ecc71;
+  border: 2px #34495e solid;
+  width: 60%;
+  height: 115px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.richtig p {
+  text-align: center;
+  padding-top: 5%;
+}
+
+/*
+
+Admin
+
+*/
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*
+
+Aktiver Supporter bar
+
+*/
+.supporter-bar {
+  position: relative;
+  width: 500px;
+  height: 1.5em;
+  background-color: #111;
+  border-radius: 1.5em;
+  color: white;
+}  
+.supporter-bar::before {
+  content: attr(data-label);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: .0em;
+  top: .0em;
+  bottom: .0em;
+  width: calc(var(--width, 0)* 1%);
+  min-width: 0rem;
+  max-width: calc(100% - 0em);
+  background-color: #c0392b;
+  border-radius: 34em;
+}
+
+
+
+
+
+
+
+
+footer
+{
+  font-size: 0px;
+}

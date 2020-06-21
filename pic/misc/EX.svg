@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="20" viewBox="0 0 31 20">
+  <g id="EX" transform="translate(-138 -346)">
+    <g id="Rechteck_14" data-name="Rechteck 14" transform="translate(138 346)" fill="#7c4aa3" stroke="#42065b" stroke-width="1">
+      <rect width="31" height="20" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="30" height="19" rx="2.5" fill="none"/>
+    </g>
+    <text id="EX-2" data-name="EX" transform="translate(153 361)" fill="#42065b" font-size="13" font-family="Lato-Regular, Lato"><tspan x="-7.956" y="0">EX</tspan></text>
+  </g>
+</svg>

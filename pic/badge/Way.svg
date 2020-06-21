@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="20" viewBox="0 0 33 20">
+  <g id="Way" transform="translate(-376 -155)">
+    <g id="Way-2" data-name="Way" transform="translate(376 155)" fill="#f2861a" stroke="#f2861a" stroke-width="1">
+      <rect width="33" height="20" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="32" height="19" rx="9.5" fill="none"/>
+    </g>
+    <path id="ic_place_24px" d="M10.5,2A5.375,5.375,0,0,0,5,7.25C5,11.188,10.5,17,10.5,17S16,11.188,16,7.25A5.375,5.375,0,0,0,10.5,2Zm0,7.125A1.922,1.922,0,0,1,8.536,7.25a1.966,1.966,0,0,1,3.929,0A1.922,1.922,0,0,1,10.5,9.125Z" transform="translate(382 155)" fill="#fff"/>
+  </g>
+</svg>

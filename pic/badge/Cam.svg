@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="20" viewBox="0 0 33 20">
+  <g id="Cam" transform="translate(-377 -155)">
+    <g id="Way" transform="translate(377 155)" fill="#1d5ae8" stroke="#1d5ae8" stroke-width="1">
+      <rect width="33" height="20" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="32" height="19" rx="9.5" fill="none"/>
+    </g>
+    <path id="ic_add_a_photo_24px" d="M2.087,3V1H3.478V3H5.565V4.333H3.478v2H2.087v-2H0V3ZM4.174,7V5H6.261V3h4.87L12.4,4.333h2.205A1.367,1.367,0,0,1,16,5.667v8A1.367,1.367,0,0,1,14.609,15H3.478a1.367,1.367,0,0,1-1.391-1.333V7Zm4.87,6a3.409,3.409,0,0,0,3.478-3.333A3.409,3.409,0,0,0,9.043,6.333,3.409,3.409,0,0,0,5.565,9.667,3.409,3.409,0,0,0,9.043,13ZM6.817,9.667A2.179,2.179,0,0,0,9.043,11.8a2.135,2.135,0,1,0,0-4.267A2.179,2.179,0,0,0,6.817,9.667Z" transform="translate(385 156)" fill="#fff"/>
+  </g>
+</svg>
