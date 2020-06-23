@@ -168,6 +168,14 @@ include ("../inc/fav.php");
     </div>
 </div></a>
 
+<!--Ornament Goldene Blume -->
+<a href="create.php?arena=Ornament Goldene Blumefeld&link=https://goo.gl/maps/oosR2twWn6CKKkgq6"><div class="box_r_raid_1">
+        <div class="box_r_raid_2">
+            <p>Ornament</br>Goldene Blume</p>
+    </div>
+</div></a>
+
+
 <footer>
 </footer>
 </html>
